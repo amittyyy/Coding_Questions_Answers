@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{38D3561B-22BF-42FA-9FEB-7A218CB0FBAE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Coding_Questions_Answers</RootNamespace>
+    <AssemblyName>Coding_Questions_Answers</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Balanced.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Balanced.Designer.cs">
+      <DependentUpon>Balanced.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CharacterArrayLength.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CharacterArrayLength.Designer.cs">
+      <DependentUpon>CharacterArrayLength.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cluster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cluster.Designer.cs">
+      <DependentUpon>Cluster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConcatenatedSum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConcatenatedSum.Designer.cs">
+      <DependentUpon>ConcatenatedSum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountOnes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CountOnes.Designer.cs">
+      <DependentUpon>CountOnes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CubePowerful .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CubePowerful .Designer.cs">
+      <DependentUpon>CubePowerful .cs</DependentUpon>
+    </Compile>
+    <Compile Include="DigitIncreasing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DigitIncreasing.Designer.cs">
+      <DependentUpon>DigitIncreasing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dual.Designer.cs">
+      <DependentUpon>Dual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FactorEqual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FactorEqual.Designer.cs">
+      <DependentUpon>FactorEqual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factorial.Designer.cs">
+      <DependentUpon>Factorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FactorialPrime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FactorialPrime.Designer.cs">
+      <DependentUpon>FactorialPrime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="factorTwoCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="factorTwoCount.Designer.cs">
+      <DependentUpon>factorTwoCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fibonacci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fibonacci.Designer.cs">
+      <DependentUpon>Fibonacci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filterarray .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filterarray .Designer.cs">
+      <DependentUpon>Filterarray .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="getExponent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="getExponent.Designer.cs">
+      <DependentUpon>getExponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoddernumber .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoddernumber .Designer.cs">
+      <DependentUpon>Hoddernumber .cs</DependentUpon>
+    </Compile>
+    <Compile Include="isDivisible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="isDivisible.Designer.cs">
+      <DependentUpon>isDivisible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="isIntertial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="isIntertial.Designer.cs">
+      <DependentUpon>isIntertial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Isolated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Isolated.Designer.cs">
+      <DependentUpon>Isolated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IsPossibility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IsPossibility.Designer.cs">
+      <DependentUpon>IsPossibility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="isSquare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="isSquare.Designer.cs">
+      <DependentUpon>isSquare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="largestPrimeFactor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="largestPrimeFactor.Designer.cs">
+      <DependentUpon>largestPrimeFactor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LegalNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LegalNumber.Designer.cs">
+      <DependentUpon>LegalNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NextPerfectSquare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>NextPerfectSquare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nontrivialfactors .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nontrivialfactors .Designer.cs">
+      <DependentUpon>Nontrivialfactors .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Normalno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Normalno.Designer.cs">
+      <DependentUpon>Normalno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoZero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoZero.Designer.cs">
+      <DependentUpon>NoZero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nunique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nunique.Designer.cs">
+      <DependentUpon>nunique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nUpCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nUpCount.Designer.cs">
+      <DependentUpon>nUpCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OddHeavy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OddHeavy.Designer.cs">
+      <DependentUpon>OddHeavy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Complete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Complete.Designer.cs">
+      <DependentUpon>Complete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerfectNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerfectNumber.Designer.cs">
+      <DependentUpon>PerfectNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PorcupineNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PorcupineNumber.Designer.cs">
+      <DependentUpon>PorcupineNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrimeHappy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrimeHappy.Designer.cs">
+      <DependentUpon>PrimeHappy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrimeNumberBetween.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrimeNumberBetween.Designer.cs">
+      <DependentUpon>PrimeNumberBetween.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrimeProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrimeProduct.Designer.cs">
+      <DependentUpon>PrimeProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Balanced.resx">
+      <DependentUpon>Balanced.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharacterArrayLength.resx">
+      <DependentUpon>CharacterArrayLength.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cluster.resx">
+      <DependentUpon>Cluster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConcatenatedSum.resx">
+      <DependentUpon>ConcatenatedSum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CountOnes.resx">
+      <DependentUpon>CountOnes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CubePowerful .resx">
+      <DependentUpon>CubePowerful .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DigitIncreasing.resx">
+      <DependentUpon>DigitIncreasing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dual.resx">
+      <DependentUpon>Dual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FactorEqual.resx">
+      <DependentUpon>FactorEqual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factorial.resx">
+      <DependentUpon>Factorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FactorialPrime.resx">
+      <DependentUpon>FactorialPrime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="factorTwoCount.resx">
+      <DependentUpon>factorTwoCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fibonacci.resx">
+      <DependentUpon>Fibonacci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filterarray .resx">
+      <DependentUpon>Filterarray .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>NextPerfectSquare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="getExponent.resx">
+      <DependentUpon>getExponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoddernumber .resx">
+      <DependentUpon>Hoddernumber .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="isDivisible.resx">
+      <DependentUpon>isDivisible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="isIntertial.resx">
+      <DependentUpon>isIntertial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Isolated.resx">
+      <DependentUpon>Isolated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IsPossibility.resx">
+      <DependentUpon>IsPossibility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="isSquare.resx">
+      <DependentUpon>isSquare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="largestPrimeFactor.resx">
+      <DependentUpon>largestPrimeFactor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LegalNumber.resx">
+      <DependentUpon>LegalNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nontrivialfactors .resx">
+      <DependentUpon>Nontrivialfactors .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Normalno.resx">
+      <DependentUpon>Normalno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoZero.resx">
+      <DependentUpon>NoZero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nunique.resx">
+      <DependentUpon>nunique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nUpCount.resx">
+      <DependentUpon>nUpCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OddHeavy.resx">
+      <DependentUpon>OddHeavy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complete.resx">
+      <DependentUpon>Complete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerfectNumber.resx">
+      <DependentUpon>PerfectNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PorcupineNumber.resx">
+      <DependentUpon>PorcupineNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrimeHappy.resx">
+      <DependentUpon>PrimeHappy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrimeNumberBetween.resx">
+      <DependentUpon>PrimeNumberBetween.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrimeProduct.resx">
+      <DependentUpon>PrimeProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepsEqual.resx">
+      <DependentUpon>RepsEqual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecondLargestNumber.resx">
+      <DependentUpon>SecondLargestNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SquarePair.resx">
+      <DependentUpon>SquarePair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StackedNumber.resx">
+      <DependentUpon>StackedNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StantonMeasure .resx">
+      <DependentUpon>StantonMeasure .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SumFactor.resx">
+      <DependentUpon>SumFactor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SumOfOddAndEven.resx">
+      <DependentUpon>SumOfOddAndEven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SumSafe.resx">
+      <DependentUpon>SumSafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vanilla.resx">
+      <DependentUpon>Vanilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vesuvian.resx">
+      <DependentUpon>Vesuvian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zeroplentiful .resx">
+      <DependentUpon>zeroplentiful .cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RepsEqual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepsEqual.Designer.cs">
+      <DependentUpon>RepsEqual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecondLargestNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecondLargestNumber.Designer.cs">
+      <DependentUpon>SecondLargestNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SquarePair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SquarePair.Designer.cs">
+      <DependentUpon>SquarePair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StackedNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StackedNumber.Designer.cs">
+      <DependentUpon>StackedNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StantonMeasure .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StantonMeasure .Designer.cs">
+      <DependentUpon>StantonMeasure .cs</DependentUpon>
+    </Compile>
+    <Compile Include="SumFactor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SumFactor.Designer.cs">
+      <DependentUpon>SumFactor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SumOfOddAndEven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SumOfOddAndEven.Designer.cs">
+      <DependentUpon>SumOfOddAndEven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SumSafe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SumSafe.Designer.cs">
+      <DependentUpon>SumSafe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vanilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vanilla.Designer.cs">
+      <DependentUpon>Vanilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vesuvian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vesuvian.Designer.cs">
+      <DependentUpon>Vesuvian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zeroplentiful .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zeroplentiful .Designer.cs">
+      <DependentUpon>zeroplentiful .cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
